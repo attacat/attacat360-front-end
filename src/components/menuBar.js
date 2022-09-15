@@ -1,5 +1,4 @@
 import { Menu, Button, Text } from '@mantine/core';
-import { IconSettings, IconSearch, IconPhoto, IconMessageCircle, IconTrash, IconArrowsLeftRight } from '@tabler/icons';
 import MenuData from './menuData';
 
 export function MenuBar() {
@@ -7,8 +6,8 @@ export function MenuBar() {
     const menuItems = MenuData.map((item => 
                   <Menu.Item>
                     {item.title}
-
-                    
+                    Test
+                  
                   </Menu.Item>
         ))
   return (
